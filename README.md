@@ -27,8 +27,7 @@ Colors generated with awesomely [coolors](https://coolors.co/a393bf-9882ac-73648
 - Add new lines 
 
 ## Can't 
-- Select
-- Copy
 - Paste
+- do a lot other common sense stuff
 
 I replaced `<textarea>` with 130 lines of code and got shitty version of `<textarea` that can do only the fraction of what `textarea` can do. Good job!! But it has potential!
