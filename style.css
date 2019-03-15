@@ -2,42 +2,23 @@ html {
   background-color: black;
   color: white;
   font-family: 'Source Code Pro', monospace;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0 10%;
 }
 
 #editor {
   padding: 10px;
   height: 200px;
-  background-color: #44443e;
-  border: 1px #737373 solid;
+  background-color: #453750;
+  border: 1px #73648A solid;
+}
+/* what is injected as cursor in js */
+.cursor-placeholder {
+  visibility: hidden;
+  display: inline-block;
+  width: 0;
 }
 
-#lines {
-  padding-top: 0px;
-  padding-left: 3px;
-  padding-right: 3px;
-  text-align: right;
-  width: 20px;
-  height: 100%;
-  background-color: #33332e;
-  border-right: 1px #737373 solid;
-  float: left;
-}
-
-#content {
-  height: 100%;
-  padding: 10px;
-  padding-top: 0px;
-  float: left;
-}
-
-/* .cursor-placeholder { */
-/*   visibility: hidden; */
-/*   display: inline-block; */
-/*   width: 0; */
-/* } */
-
+/* what is in index.html */
 .blinking-cursor {
   font-weight: 100;
   z-index: 1;
@@ -53,6 +34,6 @@ html {
     color: transparent;
   }
   50% {
-    color: red;
+    color: #cdcdcd;
   }
 }
